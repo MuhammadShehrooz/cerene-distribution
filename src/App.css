@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "Recoleta";
+  src: url("//db.onlinewebfonts.com/t/67415ab41a7350f81536b69763e6d031.eot");
+  src: url("//db.onlinewebfonts.com/t/67415ab41a7350f81536b69763e6d031.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/67415ab41a7350f81536b69763e6d031.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/67415ab41a7350f81536b69763e6d031.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/67415ab41a7350f81536b69763e6d031.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/67415ab41a7350f81536b69763e6d031.svg#Recoleta-Regular")
+      format("svg");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap");
+
+.Recoleta {
+  font-family: Recoleta;
+}
+.Raleway {
+  font-family: Raleway;
+}
+
+.fs-48 {
+  font-size: 48px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #c22830;
+}
+
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-toggler {
+  padding: 4px 8px;
+  font-size: 14px;
+}
+
+.navbar-toggler {
+  box-shadow: none !important;
+  border: none !important;
+  outline: none !important;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 864px;
+}
+
+.heading {
+  color: #c22830;
+}
+
+.item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 -8px 20px rgba(194, 40, 48, 0.3),
+    0 8px 20px rgba(194, 40, 48, 0.3);
+}
+
+.item .item-img {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  border-radius: 8px;
+}
+
+.item:hover .item-img {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.item .item-content {
+  transition: opacity 0.3s ease;
+}
+
+.item:hover .item-content {
+  opacity: 1;
+}
+
+.item:hover h4 {
+  color: #c22830;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #c22830;
+}
+
+.footer .footer-item a {
+  line-height: 35px;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.footer .footer-item p {
+  line-height: 35px;
+  color: #fff;
+}
+
+.footer .footer-item a:hover {
+  letter-spacing: 1px;
+  color: #fff;
+  transform: translateX(5px);
+}
+
+.footer .footer-item .footer-btn a,
+.footer .footer-item .footer-btn a i {
+  transition: 0.5s;
+}
+
+.footer .footer-item .footer-btn a:hover {
+  background: #fff;
+}
+
+.footer .footer-item .footer-btn a:hover i {
+  color: #c22830 !important;
+}
+
+.copyright {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  background: #c22830;
+}
+
+.copyright p {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
