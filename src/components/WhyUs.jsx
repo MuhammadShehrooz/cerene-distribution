@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import distribution1 from "../assets/d3.jpg";
+import distribution1 from "../assets/whyus.jpg";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -81,7 +81,11 @@ const WhyUs = () => {
                 ref={imageRef}
                 src={distribution1}
                 className="img-fluid w-100"
-                style={{ marginBottom: "-7px" }}
+                style={{
+                  marginBottom: "-7px",
+                  height: "600px",
+                  objectFit: "cover",
+                }}
                 alt="About Us"
               />
             </div>

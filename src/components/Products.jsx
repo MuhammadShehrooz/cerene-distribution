@@ -9,10 +9,9 @@ import product5 from "../assets/Table-Salt-p.jpg";
 import product6 from "../assets/Flavorings-p.jpg";
 import product7 from "../assets/Glucose-Syrupe-p.jpg";
 import product8 from "../assets/Protein-p.jpg";
-import product9 from "../assets/Modified-Starches-p.jpg";
-import product10 from "../assets/flour-p.jpg";
-import product11 from "../assets/Food-Additives-p.jpg";
-import product12 from "../assets/Dextrose-Monohydrate-p.jpg";
+import product9 from "../assets/flour-p.jpg";
+import product10 from "../assets/Food-Additives-p.jpg";
+import product11 from "../assets/Dextrose-Monohydrate-p.jpg";
 import "../App.css";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -41,7 +40,7 @@ const Products = () => {
   }, []);
 
   const cards = [
-    { id: 1, image: product1, name: "Native Starches" },
+    { id: 1, image: product1, name: "Native & Modified Starches" },
     { id: 2, image: product2, name: "Sodium Bicarbonate" },
     { id: 3, image: product3, name: "Oil & Fats" },
     { id: 4, image: product4, name: "Spices" },
@@ -49,10 +48,9 @@ const Products = () => {
     { id: 6, image: product6, name: "Flavorings" },
     { id: 7, image: product7, name: "Glucose Syrup" },
     { id: 8, image: product8, name: "Textured Protein" },
-    { id: 9, image: product9, name: "Modified Starches" },
-    { id: 10, image: product10, name: "Flour" },
-    { id: 11, image: product11, name: "Food Additives" },
-    { id: 12, image: product12, name: "Dextrose Monohydrate" },
+    { id: 9, image: product9, name: "Flour" },
+    { id: 10, image: product10, name: "Food Additives" },
+    { id: 11, image: product11, name: "Dextrose Monohydrate" },
   ];
 
   return (

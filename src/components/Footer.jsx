@@ -6,7 +6,7 @@ const Footer = () => {
       <div id="contact-section" className="container-fluid footer">
         <div className="container py-5">
           <h2 className="text-center text-white mb-5 fs-48 Recoleta">
-            Serene Distrubution Ltd Dubai
+            Serene Distrubution Company
           </h2>
           <div className="row g-5">
             <div className="col-md-6 col-lg-6 col-xl-4">
@@ -39,6 +39,10 @@ const Footer = () => {
             <div className="col-md-6 col-lg-6 col-xl-4">
               <div className="footer-item d-flex flex-column">
                 <h4 className="text-white mb-4">Contact Info</h4>
+                <a href="#">
+                  <i className="fa fa-building me-2"></i> Serene DC Food,
+                  Beverage Trading LLC
+                </a>
                 <a href="#">
                   <i className="fa fa-map-marker-alt me-2"></i> Jebel Ali
                   Industrial Area ,Dubai, UAE

@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import distribution2 from "../assets/d2.jpg";
+import distribution2 from "../assets/about.jpg";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -54,7 +54,11 @@ const About = () => {
                 ref={imageRef}
                 src={distribution2}
                 className="img-fluid w-100"
-                style={{ marginBottom: "-7px" }}
+                style={{
+                  marginBottom: "-7px",
+                  height: "600px",
+                  objectFit: "cover",
+                }}
                 alt="About Us"
               />
             </div>
