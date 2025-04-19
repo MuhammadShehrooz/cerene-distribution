@@ -5,14 +5,14 @@ const Footer = () => {
     <div>
       <div id="contact-section" className="container-fluid footer">
         <div className="container py-5">
-          <h2 className="text-center text-white mb-5 fs-48 Recoleta">
-            Serene Distrubution Company
+          <h2 className="text-center text-white mb-5 fs-48 Recoleta fw-bold">
+            SERENE DISTRIBUTION COMPANY
           </h2>
           <div className="row g-5">
             <div className="col-md-6 col-lg-6 col-xl-4">
               <div className="footer-item d-flex flex-column">
-                <h4 className="text-white mb-4">About Us</h4>
-                <p className="mb-3 Raleway">
+                <h4 className="text-white mb-4 fw-bold">ABOUT US</h4>
+                <p className="mb-3">
                   Serene Distribution provides supply chain solutions for food
                   industries, retail, and catering. As a family business, we are
                   committed to the success of our partners.
@@ -20,8 +20,8 @@ const Footer = () => {
               </div>
             </div>
             <div className="col-md-6 col-lg-6 col-xl-4">
-              <div className="footer-item d-flex flex-column Raleway">
-                <h4 className="text-white mb-4">Quick Links</h4>
+              <div className="footer-item d-flex flex-column">
+                <h4 className="text-white mb-4 fw-bold">QUICK LINKS</h4>
                 <a href="#about-section">
                   <i className="fas fa-angle-right me-2"></i> About
                 </a>
@@ -38,7 +38,7 @@ const Footer = () => {
             </div>
             <div className="col-md-6 col-lg-6 col-xl-4">
               <div className="footer-item d-flex flex-column">
-                <h4 className="text-white mb-4">Contact Info</h4>
+                <h4 className="text-white mb-4 fw-bold">CONTACT INFO</h4>
                 <a href="#">
                   <i className="fa fa-building me-2"></i> Serene DC Food,
                   Beverage Trading LLC

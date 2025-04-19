@@ -143,3 +143,28 @@ body {
   padding: 10px;
   margin: 0;
 }
+
+.notfound-wrapper {
+  background-color: #0e1a14;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  padding: 1rem;
+}
+
+.notfound-number {
+  font-size: 8rem;
+  font-weight: bold;
+  color: #c22830;
+  margin-bottom: 1rem;
+}
+
+.notfound-text {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
